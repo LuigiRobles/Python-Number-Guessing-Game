@@ -6,7 +6,7 @@ import random as rand
 class GuessTheNumber:
     def __init__(self):
         magicNumber = rand.randint(1, 100)
-        print(magicNumber)
+        #print(magicNumber)
 
         try:
             guess = int(input("Guess a number from 1 to 100: "))
